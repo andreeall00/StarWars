@@ -1,0 +1,68 @@
+
+.data {
+    text-align: left;
+}
+
+.contact-hr {
+    margin-top: 80px;
+}
+
+.form {
+    padding-top: 80px;
+    margin-top: 21px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input[type="text"] {
+    height: 25px;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 228.5px;
+    padding-left: 5px;
+}
+
+.input-label-div {
+    margin-bottom: -25px;
+}
+
+.input-label-div label {
+    display: inline-block;
+    width: 100px;
+    line-height: 20px;
+}
+
+.form textarea {
+    margin-left: 16px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding-left: 5px;
+}
+
+.textarea-label-div {
+    margin-bottom: -25px;
+}
+
+.textarea-label-div label {
+    display: inline-block;
+    width: 85px;
+}
+
+.form input[type="radio"] {
+    margin-left: 8px;
+}
+
+.button1 {
+    width: 150px;
+    padding: 6px; 
+    margin-right: 35px;
+}
+
+.button2 {
+    width: 150px;
+    padding: 6px; 
+}
+

@@ -1,0 +1,47 @@
+.label-switch-light {
+	display: flex;
+	color: black;
+}
+
+.label-switch-dark {
+	display: flex;
+	color: white;
+}
+
+input[type="checkbox"].switch  {
+	position: absolute;
+	opacity: 0;
+}
+
+input[type="checkbox"].switch + div {
+    margin-right: 5px;
+    width: 42px;
+	height: 22px;
+	border-radius: 100px;
+	background-color: #bbbbbb;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+
+input[type="checkbox"].switch:checked + div {
+	background-color: rgb(236, 235, 235);
+}
+
+input[type="checkbox"].switch + div > div {
+	float: left;
+	width: 20px; height: 20px;
+	border-radius: inherit;
+	background: #ffffff;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	pointer-events: none;
+	margin-top: 1.2px;
+	margin-left: 1.2px;
+}
+
+input[type="checkbox"].switch:checked + div > div {
+	-webkit-transform: translate3d(20px, 0, 0);
+	transform: translate3d(20px, 0, 0);
+	background-color: rgb(28, 28, 28);
+}

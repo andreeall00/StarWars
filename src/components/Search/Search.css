@@ -1,0 +1,12 @@
+.search {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.search input[type="text"] {
+    height: 25px;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 216px;
+    padding-left: 5px;
+}
